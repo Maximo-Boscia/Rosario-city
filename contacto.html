@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacete socio</title>
+    <link rel="stylesheet" href="../rosariocity/css/estilo.css">
+    <link rel="shortcut icon" href="img/escudo.jpeg" type="image/x-icon">
+</head>
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="casa.html">Casa</a>
+        <a href="plantel.html">plantel</a>
+        <a href="tienda.html">Tienda oficial</a>
+        <a href="contacto.html">Hacete socio</a>
+    </nav>
+    <div class="contenedor">
+        <form action="" class="form">
+            <div class="form-header">
+                <h1 class="form-tittle">H<SPAN>acete socio</SPAN></h1>
+            </div>
+            <label for="nombre" class="form-lable">Nombre</label>
+            <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre">
+
+            <label for="apellido" class="form-lable">Apellido</label>
+            <input type="text" id="apellido" class="form-input" placeholder="apellido">
+
+            <label for="correo" class="form-lable">Correo electronico</label>
+            <input type="email" id="correo" class="form-input" placeholder="correo">
+
+            <label for="dni" class="form-lable">Dni</label>
+            <input type="number" id="dni" class="form-input" placeholder="dni">
+           
+            <label for="telefono" class="form-lable">Numero de telefono</label>
+            <input type="tel" id="telefono" class="form-input" placeholder="telefono">
+
+            <select  class= "select" name="" id="">
+                <option value="" disabled selected>Elija la categoria de socio</option>
+                <option value="socio-cancha">Socio cancha</option>
+                <option value="socio-pleno">Socio pleno</option>
+            </select>
+
+            <fieldset class="fieldset">
+                <legend >Genero </legend>
+                <div class="fieldset-genero">Hombre</div>
+                <input type="radio" name="gender" value="hombre">
+                <div class="fieldset-genero">mujer</div>
+                <input type="radio" name="gender" value="mujer">
+                
+            </fieldset> 
+            
+            <div class="input-text">Acepta los terminos y condiciones</div>
+            <input class="input-casillero" type="checkbox">
+            <input class= "input-casillero" type="submit" value="Enviar">
+            <input class= "input-casillero"type="reset" value= "Resetear valores ">
+
+            
+        </form>
+    </div>
+</body>
+</html>
