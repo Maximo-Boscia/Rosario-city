@@ -9,80 +9,123 @@
     <link rel="stylesheet" href="../rosariocity/css/estilo.css">
     <link rel="shortcut icon" href="img/escudo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
 
     <boady>
-        <nav class="nav">
-            <a href="index.html">Inicio</a>
-            <a href="casa.html">Casa</a>
-            <a href="plantel.html">plantel</a>
-            <a href="tienda.html">Tienda oficial</a>
-            <a href="contacto.html">Hacete socio</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Nuestra institucion</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="casa.html">Nuestra casa</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="plantel.html">Plantel <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda oficial</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Hacete socio</a>
+                    </li>
+                </ul>
+
+            </div>
         </nav>
         <section class="textos-header">
             <h1>El plantel</h1>
         </section>
-        <ul class="plantel">
-            <section class="grid">
-                <div>
-                    <li>Arqueros</li>
-                    <ol>
-                        <li>#33 Felicetti Giuli </li>
-                        <li>#99 Papu Cule</li>
-                        <li>#1 Manucho</li>
-                        <li>#12 Prime Reguilon</li>
-                    </ol>
-                </div>
-                <div>
-                    <li>Defensores</li>
-                    <ol>
-                        <li>#21 Alfonso </li>
-                        <li>#77 L-Gante Leproso </li>
-                        <li>#17 Teo sin H</li>
-                        <li>#45 Franco Verón</li>
-                        <li>#25 TuquiSSJ </li>
-                        <li>#19 RengOo</li>
-                        <li>#22 Rudiguerneta</li>
-                        <li>#13 Lucas Gianotti </li>
-                        <li>#14 Cargdiff</li>
-                        <li>#23 Agustin Riet</li>
-                        <li>#22 Cuca</li>
-                        <li>#76 BillyShArg</li>
-                    </ol>
-                </div>
-                <div>
-                    <li>Mediocampistas</li>
-                    <ol>
-                        <li>#10 Bono </li>
-                        <li>#6 Pochettinismo</li>
-                        <li>#80 Sonico</li>
-                        <li>#69 Eddie Vedder</li>
-                        <li>#24 Lauriot </li>
-                        <li>#21 Isma Newell's</li>
-                        <li>#5 Chequito</li>
-                        <li>#20 Viejardo</li>
-                    </ol>
-                </div>
-                <div>
-                    <li>Delanteros</li>
-                    <ol>
-                        <li>#31 SantiCANOB</li>
-                        <li>#12 Neymar Leproso</li>
-                        <li>#18 Agustin Riet</li>
-                        <li>#26 CAPArgento__</li>
-                        <li>#17 Mati con M</li>
-                        <li>#90 Davinho</li>
-                        <li>#30 Tisserismo</li>
-                        <li>#74 Lucio Alvare</li>
-                        <li>#9 Teo Blazers</li>
-                        <li>#15 Gagliardista</li>
-                        <li>#74 CJ Leproso </li>
-                        <li>#32 Splinter Leproso</li>
-                    </ol>
-
-                </div>
-
-        </ul>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Arqueros</th>
+                <th scope="col">Defensores</th>
+                <th scope="col">Mediocampistas</th>
+                <th scope="col">Delanteros</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">#33 Felicetti Giuli </th>
+                <td>#21 Alfonso </td>
+                <td>#10 Bono</td>
+                <td>#31 SantiCANOB</td>
+              </tr>
+              <tr>
+                <th scope="row">#99 Papu Cule</th>
+                <td>#77 L-gante y leproso</td>
+                <td>#6 Pochettinismo</td>
+                <td>#12 Neymar Leproso</td>
+              </tr>
+              <tr>
+                <th scope="row">#1 Manucho</th>
+                <td>45 Franco Verón</td>
+                <td>#80 Sonico</td>
+                <td>#32 Splinter Leproso</td>
+              </tr>
+              <tr>
+                <th scope="row">#12 Prime Reguilon</th>
+                <td>#17 Teo sin H</td>
+                <td>#69 Eddie Vedder</td>
+                <td>#18 Agustin Riet</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>#25 TuquiSSJ </td>
+                <td>#24 Lauriot </td>
+                <td>#26 CAPArgento__</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>#19 RengOo</td>
+                <td>#21 Isma Newell's</td>
+                <td>#17 Mati con M</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>#22 Rudiguerneta</td>
+                <td>#5 Chequito</td>
+                <td>#90 Davinho</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>#13 Lucas Gianotti</td>
+                <td>#20 Viejardo</td>
+                <td>#30 Tisserismo</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>#14 Cargdiff</td>
+                <td></td>
+                <td>#74 Lucio Alvare</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>#23 Agustin Riet</td>
+                <td></td>
+                <td>#9 Teo Blazers</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>#22 Cuca</td>
+                <td></td>
+                <td>#15 Gagliardista</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>#76 BillyShAr</td>
+                <td></td>
+                <td>#74 CJ Leproso </td>
+              </tr>
+            </tbody>
+          </table>
         </section>
 
     </boady>
