@@ -8,18 +8,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosario City Football Club</title>
     <link rel="stylesheet" href="../rosariocity/css/estilo.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="shortcut icon" href="img/escudo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 
 <body>
     <header class="header">
-        <nav class="nav">
-            <a href="index.html">Inicio</a>
-            <a href="casa.html">Casa</a>
-            <a href="plantel.html">plantel</a>
-            <a href="tienda.html">Tienda oficial</a>
-            <a href="contacto.html">Hacete socio</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Nuestra institucion</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="casa.html">Nuestra casa</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="plantel.html">Plantel <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda oficial</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Hacete socio</a>
+                    </li>
+                </ul>
+
+            </div>
         </nav>
         <section class="textos-header">
             <h1>Bienvenidos a la página del club mas grande del interior.</h1>
@@ -34,27 +54,23 @@
     <main>
         <div class="contenedor nuestra-institucion">
             <h2 class="titulo">Nuestra institución</h2>
-            <div class="contenedor-nuestra-institucion">
-                <img src="img/escudo.jpeg" alt="" class="imagen-about-us">
-                <div class="contenido-textos">
-                    <h3><span>1</span>Nuestra historia</h3>
-                    <p>La historia de Rosario City comenzó a escribirse a finales de 2020 cuando Tomás Llanos, actual
-                        presidente del club, fundó Burro's Old Boys. Este club tuvo un buen comienzo, logrando entrar en
-                        dos de las ligas mas prestigiosas del momento, LTP y Kasfort. Luego de nueve meses y una
-                        clasificación a play-offs en Kasfort, el plantel comenzó a estar por demas de inactivo, y por
-                        problemas en la dirigencia se tomó la decisión de cerrar las puertas del club por tiempo
-                        indefinido. A esto tambien se le suma la polemica ocurrida con Gertoki y la Liga LTP, que fue
-                        una gran decepción y brindó un importante descontento en el club, que llevó a que no haya deseo
-                        en participar en ligas simuladas</p>
-                    <h3><span>2</span>Nuevo comienzo</h3>
-                    <p>En febrero de 2022, con estudios terminados y tiempo libre, el antiguo presidente Tomás Llanos
-                        decidió volver a traer al querido Burro's Old Boys, sin embargo, por problemas con antiguos
-                        miembros de la dirigencia fue necesario un cambio drastico de nombre e imagen, ya que se le
-                        prohibia completamente el uso de las palabras "Burro, Old, Boys, Newell" en el nombre del
-                        equipo. El nombre escogido fue Rosario City Futbol Club, con motivo de representar mas que una
-                        hinchada, se buscaba representar a una ciudad entera.</p>
-                </div>
-            </div>
+
+            <div class="row">
+            </div class="col" style="background-color: red;">
+            columna
+        </div>
+        </div>
+
+        <div class="row">
+        </div class="col" style="background-color: red;">
+        columna</div>
+        </div>
+
+        <div class="row">
+        </div class="col" style="background-color: red;">
+        columna</div>
+        </div>
+
         </div>
     </main>
     </section>
@@ -63,11 +79,15 @@
             <h2> siguenos en:</h2>
             <ul class="redes-1">
                 <li><a href="https://twitter.com/FCRosarioCity"><img src="img/gorjeo.png" class="twitter" width="100"
-                            height="100"></a></li>
+                            height="100">
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
+
 </html>
 
 
